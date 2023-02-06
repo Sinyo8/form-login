@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@300;400&display=swap");
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  background-image: linear-gradient(137deg, #1c86b8, #1c6db8, #1c5ab8);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container .form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 450px;
+  min-height: 400px;
+  flex-direction: column;
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  border-radius: 25px;
+}
+.container .form h1 {
+  font-size: 3.5em;
+  position: absolute;
+  top: 0;
+  padding: 15px;
+  border-bottom: solid 2px #333;
+}
+
+.container .form .box-input {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container .form .box-input label {
+  font-size: 1.5em;
+  margin: 10px 0px;
+}
+
+.container .form .box-input input {
+  display: inline-block;
+  min-width: 300px;
+  min-height: 35px;
+  outline: #fff;
+  box-shadow: 0px 0px 3px 3px #1c86b8;
+  border: none;
+  border-radius: 25px;
+  padding: 5px 25px;
+  font-size: 1em;
+  font-weight: 300;
+}
+.container .form .box-checked {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 8px;
+}
+
+.container .form .box-checked label {
+  display: block;
+  text-align: left;
+  color: #d63838;
+  font-size: 0.8em;
+}
+
+.container .form .box-btn {
+  width: 65%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 25px;
+}
+.container .form .box-btn button {
+  box-shadow: 0px 0px 3px 3px #1c86b8;
+  border: none;
+  outline: #1c86b8;
+  background-color: #1c5ab8;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container .form .box-btn button:hover {
+  background-color: #fff;
+  color: #333;
+}
